@@ -112,3 +112,25 @@ header {
   margin: 0 auto;
   background-color: var(--body-bg-dark);
 }
+
+main {
+  display: flex;
+  flex-direction: row;
+
+  & > section {
+    flex: 3;
+    height: 500px;
+    background-color: #d2d2d2;
+  }
+
+  & > aside {
+    flex: 2;
+    height: 70%;
+    background-color: #fff;
+  }
+}
+
+#photo-bio {
+  width: 300px;
+  height: 200px;
+}
